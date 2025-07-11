@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png'
 
 const ListMenu = [
   { name: "Services", path: "/" },
@@ -11,11 +12,11 @@ const ListMenu = [
 const Navbar = () => {
   const [menu, setMenu] = useState("Services");
   return (
-    <div>
+    <div className="bg-[#1A0D33]">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link
+        {/* <Link
           to={"/"}
-          className="flex items-center gap-2 justify-center sm:text-2xl text-[20px] uppercase font-bold"
+          className="flex items-center gap-2 justify-center sm:text-2xl text-[20px] uppercase font-bold font-ethnocentric"
         >
           <h2 className="text-[#fb3f6c]">
             NovaNex
@@ -23,9 +24,12 @@ const Navbar = () => {
               Innovations
             </span>
           </h2>
+        </Link> */}
+        <Link to={"/"}>
+          <img src={logo} alt="" className="sm:w-[180px] w-[150px]"/>
         </Link>
         <div className="flex items-center lg:gap-[60px] gap-[40px]">
-          <ul className="md:flex hidden items-center lg:gap-[45px] gap-[25px]">
+          <ul className="md:flex hidden items-center lg:gap-[45px] gap-[25px] text-white">
             {ListMenu.map((item, index) => {
               return (
                 <li
@@ -41,7 +45,7 @@ const Navbar = () => {
             })}
           </ul>
           <div>
-            <button className="button border-[#FF698D80] border-[1px] px-4 py-2 font-semibold text-[16px] rounded-full before:bg-[#FF698D80] hover:text-white active:bg-[#FF698D80] active:text-white">
+            <button className="button border-[#7152F5] border-[1px] sm:px-4 px-2 sm:py-2 py-1 font-semibold sm:text-[16px] rounded-full before:bg-[#7152F5] active:bg-[#7152F5] text-white">
               Let's Talk
             </button>
           </div>
