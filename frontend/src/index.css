@@ -7,6 +7,10 @@
     --font-ethnocentric: 'Ethnocentric Rg', sans-serif;
 
     --color-purple-button: #7152F5;
+
+    /* screen sizes */
+    --screen-mmd: 875px;
+    --screen-xsm: 510px;
 }
 
 @layer base{
@@ -24,6 +28,7 @@
   font-size: 18px;
   border-radius: 34px;
   background-color: transparent;
+  border: 1px solid var(--color-purple-button);
   font-weight: 600;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
   overflow: hidden;
@@ -44,13 +49,17 @@
 
 .button:hover::before {
   scale: 3;
+  background-color: var(--color-purple-button);
 }
 
 .button:hover {
   scale: 1.1;
-  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  box-shadow: 0 0px 20px var(--color-purple-button);
+  
 }
 
 .button:active {
   scale: 1;
+  box-shadow: 0 0px 20px var(--color-purple-button);
+  background-color: var(--color-purple-button);
 }

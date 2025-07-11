@@ -45,7 +45,7 @@ const Navbar = () => {
             })}
           </ul>
           <div>
-            <button className="button border-[#7152F5] border-[1px] sm:px-4 px-2 sm:py-2 py-1 font-semibold sm:text-[16px] rounded-full before:bg-[#7152F5] active:bg-[#7152F5] text-white">
+            <button className="button sm:px-4 px-2 sm:py-2 py-1 font-semibold sm:text-[16px] text-white">
               Let's Talk
             </button>
           </div>
