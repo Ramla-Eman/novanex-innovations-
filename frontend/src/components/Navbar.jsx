@@ -12,19 +12,8 @@ const ListMenu = [
 const Navbar = () => {
   const [menu, setMenu] = useState("Services");
   return (
-    <div className="bg-[#1A0D33]">
+    <div className="bg-background">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        {/* <Link
-          to={"/"}
-          className="flex items-center gap-2 justify-center sm:text-2xl text-[20px] uppercase font-bold font-ethnocentric"
-        >
-          <h2 className="text-[#fb3f6c]">
-            NovaNex
-            <span className="text-black">
-              Innovations
-            </span>
-          </h2>
-        </Link> */}
         <Link to={"/"}>
           <img src={logo} alt="" className="sm:w-[180px] w-[150px]"/>
         </Link>
@@ -45,7 +34,7 @@ const Navbar = () => {
             })}
           </ul>
           <div>
-            <button className="button sm:px-4 px-2 sm:py-2 py-1 font-semibold sm:text-[16px] text-white">
+            <button className="button text-white">
               Let's Talk
             </button>
           </div>

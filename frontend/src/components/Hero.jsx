@@ -5,7 +5,7 @@ import { heroSec_ratingImg } from "../assets/assests.js";
 
 const Hero = () => {
   return (
-    <div className="lg:h-[34vw] md:h-[48vw] bg-[#1A0D33] max-w-7xl p-7 sm:px-7 px-4 md:my-[30px] my-3 rounded-2xl text-white xl:mx-auto sm:mx-4 mx-1 relative flex md:flex-row flex-col justify-between">
+    <div className="lg:h-[34vw] md:h-[48vw] bg-background max-w-7xl p-7 sm:px-7 px-4 md:my-[30px] my-3 rounded-2xl text-white xl:mx-auto sm:mx-4 mx-1 relative flex md:flex-row flex-col justify-between">
       <div className="flex flex-col justify-center items-start xl:gap-6 gap-3">
         <p className="xl:text-2xl sm:text-xl">
           Best Platform for transformation
@@ -27,11 +27,11 @@ const Hero = () => {
         </p>
         <button className="button">Get Started</button>
       </div>
-      <img src={image} alt="" className="" />
+      <img src={image} alt="" />
       <div className="bg-[#F4F2FA] absolute lg:bottom-6 bottom-3 lg:right-10 right-4 flex flex-col gap-2 py-2 px-5 rounded-xl rounded-br-none">
         <div className="flex gap-2.5 items-center">
           <p className="font-bold text-black text-xl">3.5</p>
-          <div className="flex text-[#E05207] gap-0.5">
+          <div className="flex text-orange gap-0.5">
             <FaStar />
             <FaStar />
             <FaRegStarHalfStroke />
@@ -54,7 +54,7 @@ const Hero = () => {
               </div>
             );
           })}
-          <div className="rounded-full bg-[#E05207] w-[40.24px] h-[40px] flex justify-center items-center -ml-2.5 border-white border-2">
+          <div className="rounded-full bg-orange w-[40.24px] h-[40px] flex justify-center items-center -ml-2.5 border-white border-2">
             2k
           </div>
         </div>

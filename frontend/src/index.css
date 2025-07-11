@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/ethnocentric');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/ethnocentric");
 @import "tailwindcss";
 
-@theme{
-    --font-source-sans-3: 'Source Sans 3', sans-serif;
-    --font-ethnocentric: 'Ethnocentric Rg', sans-serif;
+@theme {
+  --font-source-sans-3: "Source Sans 3", sans-serif;
+  --font-ethnocentric: "Ethnocentric Rg", sans-serif;
 
-    --color-purple-button: #7152F5;
+  --color-purple-button: #7152f5;
+  --color-background: #1A0D33;
+  --color-orange: #E05207;
 
-    /* screen sizes */
-    --screen-mmd: 875px;
-    --screen-xsm: 510px;
+  /* screen sizes */
+  --screen-mmd: 875px;
+  --screen-xsm: 510px;
 }
 
-@layer base{
-    html{
-        font-family: var(--font-source-sans-3);
-    }
+@layer base {
+  html {
+    font-family: var(--font-source-sans-3);
+  }
 }
-
 
 /* button */
 .button {
@@ -30,12 +31,19 @@
   background-color: transparent;
   border: 1px solid var(--color-purple-button);
   font-weight: 600;
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .button {
+    padding: 8px 18px;
+    font-size: 16px;
+  }
+}
+
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   margin: auto;
@@ -44,7 +52,7 @@
   border-radius: inherit;
   scale: 0;
   z-index: -1;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .button:hover::before {
@@ -55,7 +63,6 @@
 .button:hover {
   scale: 1.1;
   box-shadow: 0 0px 20px var(--color-purple-button);
-  
 }
 
 .button:active {
