@@ -5,9 +5,11 @@ import ratingImg3 from "./ratingImg3.png";
 import ratingImg4 from "./ratingImg4.png";
 
 import BannerImg from './BannerImg.png'
+import logo from './logo.png'
 
 export const assests = {
-  BannerImg
+  BannerImg,
+  logo
 }
 
 export const heroSec_ratingImg = [
