@@ -3,6 +3,13 @@ import ratingImg1 from "./ratingImg1.png";
 import ratingImg2 from "./ratingImg2.png";
 import ratingImg3 from "./ratingImg3.png";
 import ratingImg4 from "./ratingImg4.png";
+
+import BannerImg from './BannerImg.png'
+
+export const assests = {
+  BannerImg
+}
+
 export const heroSec_ratingImg = [
   { img: ratingImg1 },
   { img: ratingImg2 },

@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="lg:h-[34vw] md:h-[48vw] bg-background max-w-7xl p-7 sm:px-7 px-4 md:my-[30px] my-3 rounded-2xl text-white xl:mx-auto sm:mx-4 mx-1 relative flex md:flex-row flex-col justify-between">
       <div className="flex flex-col justify-center items-start xl:gap-6 gap-3">
-        <p className="xl:text-2xl sm:text-xl">
+        <p className="xl:text-2xl sm:text-xl -mb-3.5">
           Best Platform for transformation
         </p>
         <h1 className="xl:text-6xl md:text-4xl text-3xl  font-bold font-ethnocentric">
