@@ -6,10 +6,12 @@ import ratingImg4 from "./ratingImg4.png";
 
 import BannerImg from './BannerImg.png'
 import logo from './logo.png'
+import ContactImg from './contactImg.png'
 
 export const assests = {
   BannerImg,
-  logo
+  logo,
+  ContactImg
 }
 
 export const heroSec_ratingImg = [
