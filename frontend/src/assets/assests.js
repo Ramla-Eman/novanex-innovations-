@@ -45,3 +45,14 @@ export const testimonialCard = [
     name: "malaika",
   },
 ];
+
+export const projects = [
+  { title: "Project A", featured: true },
+  { title: "Project B", featured: true },
+  { title: "Project C", featured: true },
+  { title: "Project D", featured: true },
+  { title: "Project E", featured: true },
+  { title: "Project F", featured: false },
+  { title: "Project G", featured: false },
+];
+

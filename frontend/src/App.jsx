@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 // import pages
 import Home from './pages/Home'
-import ContactForm from './components/ui/ContactForm'
+import ProjectsPage from './pages/ProjectsPage'
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/projects' element={<ProjectsPage/>}/>
       </Routes>
       <Footer/>
     </div>
