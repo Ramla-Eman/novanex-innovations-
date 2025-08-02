@@ -6,9 +6,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="bg-background mt-3 text-white relative">
-      <div className="trasnparent-bg-banner"></div>
       <div 
-        className="max-w-7xl mx-auto px-4 py-10 flex lg:flex-row flex-col items-center justify-between text-lg relative z-50">
+        className="max-w-7xl mx-auto px-4 py-5 flex lg:flex-row flex-col items-center justify-between text-lg relative z-50">
         <div className="flex sm:flex-row flex-col gap-5 justify-center items-center">
           <img src={assests.logo} alt="" className="w-[100px]" />
           <hr className="sm:h-7 h-0.5 sm:w-0.5 w-full bg-[#75788C] border-0" />

@@ -10,14 +10,14 @@ const Hero = () => {
         <p className="xl:text-2xl sm:text-xl -mb-3.5">
           Best Platform for transformation
         </p>
-        <h1 className="xl:text-6xl md:text-4xl text-3xl  font-bold font-ethnocentric">
-          Build<span className="text-[#7B6DB2]">.</span>
+        <h1 className="xl:text-6xl md:text-4xl text-3xl  font-bold font-orbitron">
+          Build<span className="text-blue">.</span>
           <br />
           Innovate
-          <span className="text-[#7B6DB2]">.</span>
+          <span className="text-blue">.</span>
           <br />
           Transform
-          <span className="text-[#7B6DB2]">.</span>
+          <span className="text-blue">.</span>
         </h1>
         <p className="xl:text-xl sm:block hidden">
           NovaNex Innovations delivers cutting-edge web, app, and full-stack
@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="bg-[#F4F2FA] absolute lg:bottom-6 bottom-3 lg:right-10 right-4 flex flex-col gap-2 py-2 px-5 rounded-xl rounded-br-none">
         <div className="flex gap-2.5 items-center">
           <p className="font-bold text-black text-xl">3.5</p>
-          <div className="flex text-orange gap-0.5">
+          <div className="flex text-[#E05207] gap-0.5">
             <FaStar />
             <FaStar />
             <FaRegStarHalfStroke />
@@ -54,7 +54,7 @@ const Hero = () => {
               </div>
             );
           })}
-          <div className="rounded-full bg-orange w-[40.24px] h-[40px] flex justify-center items-center -ml-2.5 border-white border-2">
+          <div className="rounded-full bg-blue w-[40.24px] h-[40px] flex justify-center items-center -ml-2.5 border-white border-2">
             2k
           </div>
         </div>

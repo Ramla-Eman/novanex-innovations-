@@ -18,7 +18,7 @@ const Testimonials = () => {
     <div className="h-screen max-w-7xl pt-7 mx-auto md:my-[30px] my-3">
       <div className="flex flex-col justify-between w-full h-full">
         <div className="flex flex-col gap-2 px-4 sm:px-7">
-          <p className="text-xl text-orange uppercase -mb-2">Testimonial</p>
+          <p className="text-xl text-blue uppercase -mb-2">Testimonial</p>
           <h2 className="xl:text-5xl md:text-3xl text-2xl font-bold">
             What Our Customer's Say
           </h2>

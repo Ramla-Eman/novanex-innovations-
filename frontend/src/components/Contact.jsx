@@ -12,11 +12,11 @@ const Contact = () => {
           className="lg:block w-[50%] hidden"
         />
         <div className="lg:w-[45%] w-full flex flex-col gap-2.5">
-          <p className="text-xl text-orange uppercase -mb-2">Contact Us</p>
+          <p className="text-xl text-blue uppercase -mb-2">Contact Us</p>
           <h2 className="xl:text-5xl md:text-3xl text-2xl font-bold">
             Let's Collaborate Now!
           </h2>
-          <ContactForm/>
+          <ContactForm />
         </div>
       </div>
     </div>

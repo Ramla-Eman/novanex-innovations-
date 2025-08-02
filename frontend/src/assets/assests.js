@@ -7,8 +7,12 @@ import ratingImg4 from "./ratingImg4.png";
 import BannerImg from "./BannerImg.png";
 import logo from "./logo.png";
 import ContactImg from "./contactImg.png";
+
+// Testimonial Section Images
 import testimonialbg from "./testimonialbg.png";
 import testimonialImg1 from "./testimonialImg1.png";
+
+// Projects Section Img
 
 export const assests = {
   BannerImg,
@@ -47,12 +51,52 @@ export const testimonialCard = [
 ];
 
 export const projects = [
-  { title: "Project A", featured: true },
-  { title: "Project B", featured: true },
-  { title: "Project C", featured: true },
-  { title: "Project D", featured: true },
-  { title: "Project E", featured: true },
-  { title: "Project F", featured: false },
-  { title: "Project G", featured: false },
+  {
+    title: "Project A",
+    discription: "",
+    category: "",
+    image: "",
+    webLink:"https://react-team-project-lyart.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Project B",
+    discription: "",
+    category: "",
+    image: "",
+    webLink:"https://stuff-animal-toy-shop-template.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Project C",
+    discription: "",
+    category: "",
+    image: "",
+    webLink:"https://comforty-template.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Project D",
+    discription: "",
+    category: "",
+    image: "",
+    webLink:"https://shopsy-jet.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Project E",
+    discription: "",
+    category: "",
+    image: "",
+    webLink:"https://mern-stack-project1-tomato-frontend.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Project F",
+    discription: "",
+    category: "",
+    image: "",
+    webLink:"https://react-team-project-lyart.vercel.app/",
+    featured: true,
+  },
 ];
-
